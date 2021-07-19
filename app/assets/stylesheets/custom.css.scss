@@ -1,5 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+// .header {
+//     overflow: hidden;
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+// }
+
 .contacts {
     background: gold;
     text-align: right;
@@ -11,4 +18,23 @@
 
 .nav-links li{
     list-style: none;
+}
+
+.home-container {
+}
+
+.div-image {
+    width: 100%;
+}
+
+.who-we-are {
+    text-align: center;
+}
+
+.image-div {
+    width: 50%;
+}
+
+.what-we-offer {
+    text-align: center;
 }

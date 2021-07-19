@@ -1,3 +1,73 @@
-<div class="container">
- <p class="text-success">this is home</p>
+<div class="home-container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active div-image">
+            <%= image_tag "webdesign.jpg", class: "d-block w-100" %>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Web Design</h5>
+                <p>We design web applications</p>
+            </div>
+        </div>
+        <div class="carousel-item div-image">
+            <%= image_tag "mobiledesign.jpg", class: "d-block w-100" %>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Mobile App Design</h5>
+                <p>We design Mobile applications</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <div class="who-we-are mt-2">
+        <h1>WHO WE ARE</h1><hr/>
+        <p>
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsumlorem ipsum v lorem ipsum lorem ipsum lorem ipsum lorem ipsum v
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsumlorem ipsum
+        </p>
+        <p>
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsumlorem ipsum v lorem ipsum lorem ipsum lorem ipsum lorem ipsum v
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            lorem ipsumlorem ipsum
+        </p>
+    </div>
+    <div class="what-we-offer mt-4">
+        <h1>WHAT WE OFFER</h1><hr/>
+        <div class="d-flex justify-content-between">
+            <div class="mx-3">
+                <div>
+                    <h6>sub heading 1</h6>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem 
+                    ipsum lorem ipsum lorem ipsum</p>
+                    <h6>sub heading 2</h6>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem 
+                    ipsum lorem ipsum lorem ipsum</p>
+                </div>
+            </div>
+            <div class="image-div"><%= image_tag "whoweare.jpg", class: "d-block w-100" %></div>
+            <div class="mx-3">
+                <div>
+                    <h6>sub heading 3</h6>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem 
+                    ipsum lorem ipsum lorem ipsum</p>
+                    <h6>sub heading 4</h6>
+                    <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem 
+                    ipsum lorem ipsum lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
