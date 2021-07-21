@@ -20,12 +20,12 @@ body {
     font-family: 'Gotham-Rounded-Light';
   }
 
-// .header {
-//     overflow: hidden;
-//     position: fixed;
-//     top: 0;
-//     width: 100%;
-// }
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 
 .contacts {
     background: gold;
@@ -52,6 +52,10 @@ body {
 
 .nav-links li a:hover {
     color: gold;
+}
+
+.home-container, .about-content, .services-content, .contact-content {
+    margin-top: 95px;
 }
 
 .div-image {
@@ -140,3 +144,11 @@ body {
 }
 
 // end services page designs
+
+// contact page designs
+
+.contact-form {
+    width: 60%;
+}
+
+// end contact page designs
