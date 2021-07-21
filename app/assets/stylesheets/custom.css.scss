@@ -1,5 +1,25 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url("fonts/Gotham-Bold.otf");
+  }
+  
+  @font-face {
+    font-family: 'Gotham-Rounded-Light';
+    src: url("fonts/Gotham\ Rounded\ Light.otf");
+  }
+  
+  @font-face {
+    font-family: 'Helvetica-Neue-Medium';
+    src: url("fonts/HelveticaNeue.ttc");
+    font-weight: 600;
+  }
+
+body {
+    font-family: 'Gotham-Rounded-Light';
+  }
+
 // .header {
 //     overflow: hidden;
 //     position: fixed;
@@ -12,6 +32,10 @@
     text-align: right;
 }
 
+.contacts p {
+    font-weight: 700;
+}
+
 .nav-bar {
     background: black;
 }
@@ -20,23 +44,55 @@
     list-style: none;
 }
 
-.home-container {
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: gold;
 }
 
 .div-image {
     width: 100%;
+    height: 550px;
 }
 
-.who-we-are {
+.c-caption {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.who-we-are, .what-we-offer {
     text-align: center;
+}
+
+.who-we-are h1, .what-we-offer h1 {
+    font-family: 'Gotham-bold', sans-serif;
+    border-bottom: 1px solid gold ;
 }
 
 .image-div {
     width: 50%;
 }
 
-.what-we-offer {
+.image-div1 {
+    border-radius: 50%;
+}
+
+.image-div2 {
+    height: 350px;
+}
+
+.bottom-contacts {
+    background: black;
+    color: white;
     text-align: center;
+}
+
+.bottom-contacts h5 {
+    color: gold;
 }
 
 .footer-content {

@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'pages/home'
   get 'pages/about', :as => 'about_page'
   get 'pages/services', :as => 'services_page'
+  get 'pages/contact', :as => 'contact_page'
 end
